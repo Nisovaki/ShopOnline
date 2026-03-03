@@ -1,0 +1,74 @@
+.header {
+  padding-top: 6px;
+  padding-bottom: 10px;
+  color: var(--main);
+}
+
+.header-block {
+  display: grid;
+  grid-template-areas: "logo menu search profile basket favorite";
+  grid-template-columns: max-content max-content 1fr max-content max-content max-content;
+  align-items: center;
+  gap: 70px;
+}
+
+.header-logo {
+  grid-area: logo;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 6%;
+  margin-right: 50px;
+}
+
+.header-logo-col {
+  color: var(--secondary);
+}
+
+.nav {
+  grid-area: menu;
+}
+
+.nav-btn {
+  background-color: var(--secondary);
+  color: var(--white-color);
+  width: 151px;
+  height: 54px;
+  border-radius: 10px;
+  font-size: 22px;
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min-content;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.nav-img__line {
+  width: 24px;
+  height: 24px;
+}
+
+.header-search {
+  grid-area: search;
+}
+
+.header-profile {
+  grid-area: profile;
+  display: grid;
+}
+
+.header-basket {
+  grid-area: basket;
+}
+
+.header-favourites {
+  grid-area: favorite;
+}
+
+.headeer-text {
+  font-family: "Lato-bold", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+}

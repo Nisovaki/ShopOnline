@@ -1,0 +1,9 @@
+:root {
+  /* HEX цвета */
+  --white-color: #ffffff;
+  /* --secondary-color: #2ecc71; */
+
+  /* RGB/RGBA */
+  --main: rgba(45, 45, 45, 1);
+  --secondary: rgba(54, 112, 199, 1);
+}
