@@ -5,7 +5,7 @@
 
 📱 Responsive Breakpoints
 
-1920px / 1024px / 768px / 320px
+  1920px / 1024px / 768px / 320px
 
 
 ✅ Реализовано
@@ -45,30 +45,28 @@
 
 🚀 Запуск проекта локально
 
-(инструкция по запуску)
+  (инструкция по запуску)
 
 
 🛠 Технологии
-
-
-HTML, CSS, Js.
+  HTML, CSS, Js.
 
 
 
 📁 Структура проекта
 
-css / css-block / header.css , promo.css , footer.css
-css / font.css
-css / style.css
-css / variables.css
+  css / css-block / header.css , promo.css , footer.css
+  css / font.css
+  css / style.css
+  css / variables.css
 
-fonts / Lato-Regular.woff
-fonts / Lato-Regular.woff2
-fonts / Lato-Semibold.woff
-fonts / Lato-Semibold.woff2
+  fonts / Lato-Regular.woff
+  fonts / Lato-Regular.woff2
+  fonts / Lato-Semibold.woff
+  fonts / Lato-Semibold.woff2
 
-img / header
-img / promo
+  img / header
+  img / promo
 
 js / 
 
