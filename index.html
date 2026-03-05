@@ -41,17 +41,17 @@
                   </defs>
                 </svg>
 
-                Меню
+                <span class="nav-text">Меню</span>
               </button>
             </div>
           </nav>
 
           <form action="#" method="post" class="header-search">
-            <input type="text" placeholder="Я ищу..." class="header-inp" />
-            <button>
+            <input name="search" type="text" placeholder="Я ищу..." class="header-inp" />
+
+            <button class="header-btn">
               <svg
-                width="36"
-                height="36"
+                class="header-svg"
                 viewBox="0 0 36 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@
             </button>
           </form>
 
-          <div class="header-profile">
+          <button class="header-profile header-admin">
             <div class="header-img">
               <svg
                 width="36"
@@ -95,9 +95,9 @@
             </div>
 
             <p class="headeer-text">Профиль</p>
-          </div>
+          </button>
 
-          <div class="header-basket">
+          <button class="header-basket header-admin">
             <div class="header-img">
               <svg
                 width="30"
@@ -114,9 +114,9 @@
             </div>
 
             <p class="header-text">Корзина</p>
-          </div>
+          </button>
 
-          <div class="header-favourites">
+          <button class="header-favourites header-admin">
             <div class="header-img">
               <svg
                 width="36"
@@ -140,7 +140,7 @@
             </div>
 
             <p class="header-text">Избранное</p>
-          </div>
+          </button>
         </div>
       </div>
     </header>
