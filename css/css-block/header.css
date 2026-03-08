@@ -19,8 +19,8 @@
   font-size: 30px;
   line-height: 100%;
   letter-spacing: 6%;
-  margin-right: 51px;
-  margin-top: 5px;
+  margin-right: 52px;
+  margin-top: 6px;
 }
 
 .header-logo-col {
@@ -44,7 +44,7 @@
   grid-auto-columns: min-content;
   align-items: center;
   justify-content: center;
-  gap: 7px;
+  gap: 9px;
 }
 
 .nav-img__line {
@@ -53,7 +53,7 @@
 }
 
 .nav-text {
-  margin-right: -4px;
+  margin-right: -2px;
 }
 
 .header-search {
@@ -67,6 +67,10 @@
 
 .header-profile {
   grid-area: profile;
+}
+
+.header-img {
+  display: block;
 }
 
 .header-profile > .header-img {
@@ -117,11 +121,12 @@
   height: 54px;
   background-color: var(--secondary);
   border-radius: 30px;
-  top: 0;
-  right: 27px;
+  top: -1px;
+  right: 28px;
 }
 
 .header-svg {
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
+  padding-top: 4px;
 }
